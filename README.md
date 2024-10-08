@@ -2,14 +2,40 @@
 
 Mercury Software, yapay zeka, biyoteknoloji, robotik ve temiz enerji gibi alanlarda yenilikçi startup'lara yatırım yaparak büyümeyi hedefleyen bir girişim sermayesi şirketidir. Bu web sitesi, Mercury Software'in portföyünü, şirket bilgilerini ve fon arayışındaki startup'lar için iletişim seçeneklerini sunmaktadır.
 
-![Mercury Software Hero](core/static/core/images/image.png)
+---
+
+## Ana Sayfa
+
+![Mercury Software Hero](home1.png)
+
+---
+
+## Portföy Sayfası
+
+![Startup Sayfası](startups.png)
+
+---
+
+## Hakkımızda Sayfası
+
+![Hakkında](about.png)
+
+---
+
+## İletişim Sayfası
+
+![İletişim](contact.png)
+
+---
 
 ## Özellikler
 
-- **Ana Sayfa**: Tam ekran arka plan görseli ve bir harekete geçirme butonu ile birlikte.
+- **Ana Sayfa**: Tam ekran arka plan görseli ve harekete geçirme butonu ile birlikte.
 - **Portföy**: Hem ana sayfada hem de `/startups/` sayfasında bulunan kurgusal startup'ları keşfetme bölümü.
 - **Hakkımızda**: Mercury Software'in misyonu, hedefleri ve yatırım stratejisi hakkında bilgi.
 - **İletişim**: Startup'ların fon almak için başvurabileceği bir iletişim formu.
+
+---
 
 ## Kullanılan Teknolojiler
 
@@ -18,6 +44,8 @@ Mercury Software, yapay zeka, biyoteknoloji, robotik ve temiz enerji gibi alanla
 - **Veritabanı**: SQLite (Django'nun varsayılan veritabanı)
 - **Şablon Motoru**: Django Template Language
 - **Statik Dosyalar**: Bootstrap, özel CSS ve görseller Django'nun statik dosya sistemi üzerinden sunulmaktadır.
+
+---
 
 ## Kurulum Talimatları
 
