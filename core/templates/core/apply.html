@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+  <div class="container my-5">
+    <h2 class="text-center">Apply for Funding</h2>
+    <p>We are always on the lookout for innovative startups. If you're ready to take your business to the next level, apply for funding using the form below.</p>
+
+    <form action="/apply/submit/" method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="startup">Your Startup</label>
+        <input type="text" class="form-control" id="startup" name="startup" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Startup Description</label>
+        <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+  </div>
+{% endblock %}
