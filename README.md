@@ -55,11 +55,3 @@ Mercury Software, yapay zeka, biyoteknoloji, robotik ve temiz enerji gibi alanla
     ```
 
 6. Tarayıcınızı açın ve `http://127.0.0.1:8000/` adresine gidin.
-
-## Statik Dosyalar
-
-Aşağıda projede kullanılan ana sayfa arka plan görseli:
-
-![Mercury Software Hero Background](core/static/core/images/image.png)
-
-Ana sayfa bu arka plan görseli ile modern bir görünüm sağlar. Statik dosyalar, `core/static/` dizini altında bulunur ve Bootstrap ile zenginleştirilmiştir.
